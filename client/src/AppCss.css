@@ -19,9 +19,21 @@ header{
 header ul{
   display: flex;
   list-style: none;
-  width: 120px;
+  width: 200px;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
+}
+header li{
+  background-color: rgb(21, 138, 248);
+  font-size: 18px;
+  padding: 4px 8px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px gray;
 }
 
 /*main page*/
